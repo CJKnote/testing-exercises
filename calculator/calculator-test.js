@@ -19,5 +19,5 @@ it("should handle small loan amounts", function(){
 it("should handle high interest rates", function(){
   const values = {amount: 1000, years: 10, rate: 95};
   expect(calculateMonthlyPayment(values)).toEqual('79.18');
-})
+});
 
